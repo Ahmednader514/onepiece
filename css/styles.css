@@ -5,6 +5,16 @@
     background-color: #171615;
     color: white;
     text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 nav {
@@ -20,10 +30,52 @@ nav .container .logo img {
 }
 
 nav .container {
-    width: 30%;
+    width: 80%;
     margin: auto;
     padding: 25px 0;
     background-color: #171615;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+nav .container button:hover {
+    background-color: black;
+    transition: .3s;
+}
+
+#Paris {
+    display: none;
+}
+
+nav .container img {
+    width: 100%;
+}
+
+@media (max-width: 426px) {
+    nav .container {
+        width: 80%;
+    }
+
+    nav .tab {
+        display: flex;
+    }
+
+    nav .container .logo {
+        width: 30%;
+    }
+
+    nav .container button {
+        margin: 0 5px;
+        padding: 5px 10px;
+    }
 }
 
 .hero-section iframe {
@@ -55,6 +107,12 @@ nav .container {
     margin: 25px 0;
 }
 
+@media (max-width: 426px) {
+    .images-section .container img {
+        width: 80%;
+    }
+}
+
 .text-section {
     padding: 100px 0;
 }
@@ -66,4 +124,25 @@ nav .container {
 
 .text-section h1 {
     margin: 25px 0;
+}
+
+#Paris .main-section {
+    padding: 100px 0;
+}
+
+#Paris .main-section .container {
+    width: 80%;
+    margin: auto;
+}
+
+#Paris .main-section .container h1 {
+    margin: 25px 0;
+}
+
+#Paris .main-section .container p {
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.5;
 }
