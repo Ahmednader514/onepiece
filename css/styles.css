@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #171615;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #171615;
+}
+
+nav .container .logo {
+    background-color: #171615;
+}
+
+nav .container .logo img {
+    background-color: #171615;
+}
+
+nav .container {
+    width: 30%;
+    margin: auto;
+    padding: 25px 0;
+    background-color: #171615;
+}
+
+.hero-section iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.images-section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.images-section h1 {
+    margin: 25px 0;
+}
+
+.images-section .container {
+    width: 80%;
+    margin: auto;
+}
+
+.images-section .container img {
+    width: 50%;
+    margin: 25px 0;
+}
+
+.text-section {
+    padding: 100px 0;
+}
+
+.text-section .container {
+    width: 50%;
+    margin: auto;
+}
+
+.text-section h1 {
+    margin: 25px 0;
+}
