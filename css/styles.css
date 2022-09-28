@@ -175,6 +175,7 @@ a {
     padding: 10px 20px;
     background-color: antiquewhite;
     color: black;
+    border-radius: 10px;
 }
 
 .contact-container .contact a {
